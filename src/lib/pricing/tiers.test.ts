@@ -9,7 +9,7 @@ const TIERS: PriceTier[] = [
 ];
 
 describe('getDiscount', () => {
-    it('returns empty array if null array', () => {
+    it('returns 0 if empty array', () => {
         expect(getDiscount(5, [])).toBe(0);
     });
     it('returns 0% at exactly 0 units', () => {

@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { Button } from '@/components/ui/Button'
 
 const navLinkClasses =
   'inline-flex min-h-11 items-center rounded-md px-3 text-sm font-medium text-text hover:bg-surface-2'
@@ -45,9 +44,6 @@ export function Header() {
         </form>
 
         <div className="order-2 ml-auto flex items-center gap-1 md:order-4 md:ml-0">
-          <Button variant="ghost" disabled aria-label="Language">
-            ID / EN
-          </Button>
           <Link
             href="/cart"
             aria-label="Cart"

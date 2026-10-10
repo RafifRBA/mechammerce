@@ -11,7 +11,7 @@ export function Header() {
           href="/"
           className="text-text order-1 inline-flex min-h-11 items-center rounded-md text-lg font-semibold tracking-tight"
         >
-          Mecham<span className="text-accent">merce</span>
+          Mecha<span className="text-accent">mmerce</span>
         </Link>
 
         <nav

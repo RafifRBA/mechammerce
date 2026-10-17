@@ -1,13 +1,7 @@
 import type { CatalogItem } from '@/types'
+import { priceOf } from './price'
 
 export type SortKey = 'relevance' | 'price-asc' | 'price-desc' | 'name'
-
-function priceOf(item: CatalogItem): number {
-  if (item.kind === 'standard') {
-    return item.unitPrice
-  }
-  return item.fromPrice
-}
 
 export function sortProducts(
   items: CatalogItem[],
